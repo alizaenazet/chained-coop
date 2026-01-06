@@ -289,6 +289,102 @@
         "name": "NewSprite6",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "36a02824-afd9-4b80-8649-54e32a3bb887.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "36a02824-afd9-4b80-8649-54e32a3bb887.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "36a02824-afd9-4b80-8649-54e32a3bb888.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"36a02824-afd9-4b80-8649-54e32a3bb888.png\",\"extension\":\".png\"}",
+        "name": "36a02824-afd9-4b80-8649-54e32a3bb888.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "forest-platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forest-platform.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "36a02824-afd9-4b80-8649-54e32a3bb889.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "36a02824-afd9-4b80-8649-54e32a3bb889.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player-idle-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player-idle-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Anchoring.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Anchoring",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Anchoring.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Anchoring.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Anchoring2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Anchoring2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -321,7 +417,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 3.8407310808244923,
+        "zoomFactor": 1.2031142879249472,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -394,15 +490,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 64,
+          "depth": 1,
+          "height": 21,
           "keepRatio": true,
           "layer": "",
           "name": "Platform",
           "persistentUuid": "7d2d23cf-dffe-4ee3-b70b-b0474548b192",
           "width": 64,
-          "x": 217,
-          "y": 582,
+          "x": 218,
+          "y": 609,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -423,6 +519,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "d8f6d029-31fc-42c9-aa95-9aaef1b9601d",
+          "width": 64,
+          "x": 326,
+          "y": 552,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -430,7 +543,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Floor",
-          "texture": "NewTiledSprite",
+          "texture": "36a02824-afd9-4b80-8649-54e32a3bb889.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 0,
           "variables": [],
@@ -884,6 +997,55 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Anchoring",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Anchoring",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 10
+                          },
+                          {
+                            "x": 24,
+                            "y": 10
+                          },
+                          {
+                            "x": 24,
+                            "y": 32
+                          },
+                          {
+                            "x": 6,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -927,11 +1089,12 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-idle-1.png",
+                      "image": "Idle",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -967,7 +1130,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-idle-2.png",
+                      "image": "Idle2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1003,7 +1166,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-idle-3.png",
+                      "image": "Idle3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1039,7 +1202,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-idle-4.png",
+                      "image": "Idle4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1304,6 +1467,55 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Anchoring",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Anchoring2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 10
+                          },
+                          {
+                            "x": 24,
+                            "y": 10
+                          },
+                          {
+                            "x": 24,
+                            "y": 32
+                          },
+                          {
+                            "x": 6,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1347,12 +1559,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite",
+                      "image": "forest-platform.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1369,19 +1580,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 21
+                            "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 21
+                            "x": 47,
+                            "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 42
+                            "x": 47,
+                            "y": 20
                           },
                           {
                             "x": 0,
-                            "y": 42
+                            "y": 20
                           }
                         ]
                       ]
@@ -1786,6 +1997,112 @@
           "conditions": [
             {
               "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"s\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::SetDynamic"
+              },
+              "parameters": [
+                "Player_1",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player_1",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"s\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "Player_1",
+                    "Physics2",
+                    "Floor",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "Player_1",
+                    "Physics2",
+                    "Platform",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::SetStatic"
+              },
+              "parameters": [
+                "Player_1",
+                "Physics2",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player_1",
+                "Animation",
+                "=",
+                "\"Anchoring\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
@@ -1795,13 +2112,32 @@
             },
             {
               "type": {
-                "value": "Physics2::Collision"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Player_1",
-                "Physics2",
-                "Floor",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "Player_1",
+                    "Physics2",
+                    "Floor",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "Player_1",
+                    "Physics2",
+                    "Platform",
+                    ""
+                  ]
+                }
               ]
             },
             {
@@ -1902,6 +2238,108 @@
           "conditions": [
             {
               "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Down\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::SetDynamic"
+              },
+              "parameters": [
+                "Player_2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player_2",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Down\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "Player_2",
+                    "Physics2",
+                    "Floor",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "Player_2",
+                    "Physics2",
+                    "Platform",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::SetStatic"
+              },
+              "parameters": [
+                "Player_2",
+                "Physics2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player_2",
+                "Animation",
+                "=",
+                "\"Anchoring\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
@@ -1911,13 +2349,32 @@
             },
             {
               "type": {
-                "value": "Physics2::Collision"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Player_2",
-                "Physics2",
-                "Floor",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "Player_2",
+                    "Physics2",
+                    "Floor",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::Collision"
+                  },
+                  "parameters": [
+                    "Player_2",
+                    "Physics2",
+                    "Platform",
+                    ""
+                  ]
+                }
               ]
             },
             {
